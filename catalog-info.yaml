@@ -7,10 +7,11 @@ metadata:
     - typescript
     - cdk
     - aws
-    - client-development-ket
+    - client-development-kit
     - framework
     - cloud-infrastructure
     - infrastructure-as-code
+    - infrastructure-as-a-service
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/aws-cdk
 spec:

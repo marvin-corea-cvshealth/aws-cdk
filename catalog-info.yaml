@@ -2,9 +2,19 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: aws-cdk
+  description: The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code
+  tags:
+    - typescript
+    - cdk
+    - aws
+    - client-development-ket
+    - framework
+    - cloud-infrastructure
+    - infrastructure-as-code
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/aws-cdk
 spec:
-  type: other
-  lifecycle: unknown
+  type: cdk
+  lifecycle: dev
   owner: devsecops
+  system: aws
